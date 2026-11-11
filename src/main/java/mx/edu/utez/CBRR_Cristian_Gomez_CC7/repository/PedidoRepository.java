@@ -1,0 +1,9 @@
+package mx.edu.utez.CBRR_Cristian_Gomez_CC7.repository;
+
+import mx.edu.utez.CBRR_Cristian_Gomez_CC7.model.pedido.Pedido;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PedidoRepository extends JpaRepository<Pedido, Long> {
+}
